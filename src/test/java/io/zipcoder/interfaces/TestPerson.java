@@ -24,4 +24,6 @@ public class TestPerson {
 
         Assert.assertEquals("Person", individual.getName());
     }
+
+
 }
