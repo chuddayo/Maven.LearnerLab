@@ -36,6 +36,7 @@ public class People implements Iterable<Person> {
         for (Person individual : personList) {
             if (individual.getId() == id) {
                 personList.remove(individual);
+                break;
             }
         }
     }

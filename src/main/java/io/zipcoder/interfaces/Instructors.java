@@ -1,0 +1,10 @@
+package io.zipcoder.interfaces;
+
+public class Instructors extends People {
+    private final static Instructors INSTANCE = new Instructors();
+    private Instructors() {}
+
+    public static Instructors getInstance() {
+        return INSTANCE;
+    }
+}
