@@ -18,5 +18,4 @@ public class Students extends People {
     public static Students getInstance() {
         return INSTANCE;
     }
-    // TODO create add and retrieve methods to be test-able
 }

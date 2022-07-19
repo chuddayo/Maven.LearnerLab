@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1dd89e-ec12-4190-898b-2cfa8d6b7ab4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudents.java" afterDir="false" />
     </list>
@@ -53,8 +54,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestStudents">
-    <configuration name="TestInstructor.testLecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestInstructors.testInstructorsSingleton">
+    <configuration name="TestInstructors.testInstructorsSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -63,24 +64,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
-      <option name="METHOD_NAME" value="testLecture" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInstructor.testTeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interfaces-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
-      <option name="METHOD_NAME" value="testTeach" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructors" />
+      <option name="METHOD_NAME" value="testInstructorsSingleton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,13 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStudents.testStudentsSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudents" />
+      <option name="METHOD_NAME" value="testStudentsSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestInstructors.testInstructorsSingleton" />
+        <item itemvalue="JUnit.TestStudents.testStudentsSingleton" />
         <item itemvalue="JUnit.TestStudents" />
         <item itemvalue="JUnit.TestPeople" />
         <item itemvalue="JUnit.TestPeople.testAdd" />
-        <item itemvalue="JUnit.TestInstructor.testLecture" />
-        <item itemvalue="JUnit.TestInstructor.testTeach" />
       </list>
     </recent_temporary>
   </component>
