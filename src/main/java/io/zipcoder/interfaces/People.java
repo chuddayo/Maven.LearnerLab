@@ -6,34 +6,34 @@ import java.util.List;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-public class People implements Iterable<Person> {
-    private final List<Person> personList;
+public abstract class People<E extends Person> implements Iterable<E> {
+    private final List<E> personList;
 
     public People() {
-        personList = new ArrayList<Person>();
+        personList = new ArrayList<>();
     }
 
-    public void add(Person person) {
+    public void add(E person) {
         personList.add(person);
     }
 
-    public Person findById(long id) {
-        for (Person individual : personList) {
+    public E findById(long id) {
+        for (E individual : personList) {
             if (individual.getId() == id) return individual;
         }
         return null;
     }
 
-    public boolean contains(Person person) {
+    public boolean contains(E person) {
         return personList.contains(person);
     }
 
-    public void remove(Person person) {
+    public void remove(E person) {
         personList.remove(person);
     }
 
     public void remove(long id) {
-        for (Person individual : personList) {
+        for (E individual : personList) {
             if (individual.getId() == id) {
                 personList.remove(individual);
                 break;
@@ -49,22 +49,20 @@ public class People implements Iterable<Person> {
         return personList.size();
     }
 
-    public Person[] toArray() {
-        return personList.toArray(new Person[0]);
-    }
+    public abstract E toArray();
 
     @Override
-    public Iterator<Person> iterator() {
+    public Iterator<E> iterator() {
         return personList.iterator();
     }
 
     @Override
-    public void forEach(Consumer<? super Person> action) {
+    public void forEach(Consumer<? super E> action) {
         Iterable.super.forEach(action);
     }
 
     @Override
-    public Spliterator<Person> spliterator() {
+    public Spliterator<E> spliterator() {
         return Iterable.super.spliterator();
     }
 }

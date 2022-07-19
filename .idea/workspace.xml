@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1dd89e-ec12-4190-898b-2cfa8d6b7ab4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestZipCodeWilmington.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Instructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestZipCodeWilmington.testHostLecture">
+  <component name="RunManager" selected="JUnit.io.zipcoder.interfaces in interfaces-1">
     <configuration name="TestInstructors.testInstructorsSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
@@ -67,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStudent.testLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfaces-1" />
       <extension name="coverage">
         <pattern>
@@ -76,23 +79,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interfaces-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudents" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
+      <option name="METHOD_NAME" value="testLearn" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,13 +118,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.zipcoder.interfaces in interfaces-1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfaces-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.io.zipcoder.interfaces in interfaces-1" />
+        <item itemvalue="JUnit.TestStudent.testLearn" />
         <item itemvalue="JUnit.TestZipCodeWilmington.testHostLecture" />
         <item itemvalue="JUnit.TestInstructors.testInstructorsSingleton" />
         <item itemvalue="JUnit.TestStudents.testStudentsSingleton" />
-        <item itemvalue="JUnit.TestStudents" />
-        <item itemvalue="JUnit.TestPeople" />
       </list>
     </recent_temporary>
   </component>
